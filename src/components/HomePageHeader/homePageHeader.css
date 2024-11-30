@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Header-1 {
+  background-color: #826300;
+  height: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  align-items: center;
+  font-family: "Lexend", sans-serif;
+}
+
+.Header-2 {
+  background-color: #faeddf;
+  height: 100px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  gap: 80px;
+  align-items: center;
+}
+
+.Header-2 img {
+  position: relative;
+  right: 200px;
+}
+
+.icons {
+  position: relative;
+  left: 100px;
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+.Header-3 {
+  max-width: 1366px;
+  margin: 0 auto;
+}

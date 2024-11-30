@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.MainContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.NavBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.NavBar button {
+  width: 97px;
+  height: 30px;
+  border-radius: 10px;
+  border: solid #b1b1b1 1px;
+  background: none;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 55px;
+}
+.card {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.cards h3 {
+  font-family: "Lexend" sans-serif;
+  font-size: 16;
+  font-weight: 500;
+}
+
+.Image {
+  height: 236px;
+}
+
+.Image h1 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 190px;
+  font-family: "Lexend" sans-serif;
+  font-size: 35px;
+  color: white;
+  font-weight: 400;
+}
+
+.Image button {
+  height: 45px;
+  width: 169px;
+  background-color: #826300;
+  border: none;
+  color: white;
+  font-family: "Lexend" sans-serif;
+  font-weight: 700;
+  font-size: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 170px;
+  left: 570px;
+}
+
+.ShopCollection {
+  text-align: center;
+}
+
+.ShopCollection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.ShopCollection img {
+  width: 296px;
+  height: 296px;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.images button {
+  background-color: white;
+  color: black;
+  border: none;
+  width: 167px;
+  height: 30px;
+  position: relative;
+  bottom: 60px;
+  font-family: "Lexend" sans-serif;
+  font-weight: 500;
+  font-size: 16;
+}
+
+.Footer-1 {
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+  width: 30%;
+  margin-bottom: 70px;
+}
+
+.text h3 {
+  margin-top: 10px;
+}
+.text p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.Footer-2 {
+  display: flex;
+  flex-direction: row;
+  background-color: #515050;
+  height: 400px;
+  align-items: center;
+  gap: 70px;
+}
+
+.text-1 {
+  font-family: "Lexend" sans-serif;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 14px;
+  gap: 50px;
+  margin-left: 20px;
+}
+
+.text-1 h3 {
+  width: 250px;
+  text-align: center;
+}
+
+.text-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  color: white;
+}
+.text-3 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.text-4 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.text-5 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
