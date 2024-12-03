@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navBar .cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 80px;
+}
+
+.navBar .cards img {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  width: 80%;
+  height: auto;
+}

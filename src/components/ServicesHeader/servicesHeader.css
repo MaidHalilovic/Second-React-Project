@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.slika {
+  max-width: 1366px;
+  position: relative;
+  margin: 0 auto;
+}
